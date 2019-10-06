@@ -11,8 +11,8 @@ docs
 - L_p norm : (sigma(|x|^p))^(1/p) // 수식쓰는 방법 터득 후 수정하겠음.
 - L_1 regularization : 가중치(w)가 너무 크지 않은 방향으로 학습. L1 Norm 은 파란색 선 대신 빨간색 선을 사용하여 특정 Feature 를 0으로 처리하는 것이 가능하다고 이해할 수 있다. 다시 말하자면 L1 Norm 은 Feature selection 이 가능하고 이런 특징이 L1 Regularization 에 동일하게 적용 될 수 있다.
   - regularized_cost = (1/n)*sigma(Loss(y_i,f(x_i))+(lambda/2)*|w|)
-  - ![](https://i.imgur.com/oacuvKl.png)
-  - ![](https://i.imgur.com/Ced9r6g.png)
+  - <img src="https://i.imgur.com/oacuvKl.png" height=50> \
+    <img src="https://i.imgur.com/Ced9r6g.png" height= 50>
   - L1 regularization 을 보면, w 값이 업데이트 될때, 일정한 상수 값이 계속 빼진다. 즉, 작은 값들은 0으로 수렴하여 그 영향도가 무시된다.
 
 - L_2 regularization : L1 과 마찬가지로, 가중치(w)가 너무 크지 않은 방향으로 학습.
