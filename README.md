@@ -15,7 +15,9 @@ regularized_cost = (1/n)*sigma(Loss(y_i,f(x_i))+(lambda/2)*|w|)
 
 - L_2 regularization : L1 과 마찬가지로, 가중치(w)가 너무 크지 않은 방향으로 학습.
 regularized_cost = (1/n)*sigma(Loss(y_i,f(x_i))+(lambda/2)*|w|^2)
-
+![formula](https://chart.googleapis.com/chart?cht=tx&chl=C%20%3D%20C_0%20%2B%20%5Cfrac%7B%5Clambda%7D%7B2n%7D%20*%20%5Csum_w%7Bw%5E2%7D)
+![formula](https://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7B%5Cpartial%7BC%7D%7D%7B%5Cpartial%7Bw%7D%7D%20%3D%20%5Cfrac%7B%5Cpartial%7BC_0%7D%7D%7B%5Cpartial%7Bw%7D%7D%2B%20%5Cfrac%7B%5Clambda%7D%7Bn%7D%20*%20w)
+![formula](https://chart.googleapis.com/chart?cht=tx&chl=w%20%5Crightarrow%20w%20-%20%5Ceta%20%5Cfrac%7B%5Cpartial%7BC%7D%7D%7B%5Cpartial%7Bw%7D%7D%20%3D%20w%20-%20%5Ceta%20%5B%5Cfrac%7B%5Cpartial%7BC_0%7D%7D%7B%5Cpartial%7Bw%7D%7D%20%2B%20%5Cfrac%7B%5Clambda%7D%7Bn%7Dw%5D)
 
 ### REFERENCE
 1. https://light-tree.tistory.com/125
