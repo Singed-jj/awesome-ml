@@ -24,5 +24,8 @@ docs
     ![formula](https://chart.googleapis.com/chart?cht=tx&chl=w%20%5Crightarrow%20w%20-%20%5Ceta%20%5Cfrac%7B%5Cpartial%7BC%7D%7D%7B%5Cpartial%7Bw%7D%7D%20%3D%20w%20-%20%5Ceta%20%5B%5Cfrac%7B%5Cpartial%7BC_0%7D%7D%7B%5Cpartial%7Bw%7D%7D%20%2B%20%5Cfrac%7B%5Clambda%7D%7Bn%7Dw%5D)
   - L2 regularization 을 보면, w 에 1보다 작은값이 계속 곱해지는 걸 보아, 특정값이 너무 커지지 않게 방지한다.
 
+### 한국어음성 데이터
+- [aihub](http://www.aihub.or.kr/aidata/105/download)
+
 ### REFERENCE
 1. https://light-tree.tistory.com/125
