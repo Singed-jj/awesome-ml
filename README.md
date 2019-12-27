@@ -4,6 +4,7 @@ docs
 ## Basic
 - 하이퍼파라미터 최적화는 학습에 있어 중요한데 어떻게 할까? [Bayesian Optimization; hyperparameter Optimization](http://research.sualab.com/introduction/practice/2019/02/19/bayesian-optimization-overview-1.html)
 - Batch Normalization 은 뭘까? [Batch Normalization](https://m.blog.naver.com/laonple/220808903260)
+- [CTC(Connectionist Temporal Classification) Loss](https://stats.stackexchange.com/questions/320868/what-is-connectionist-temporal-classification-ctc)
 
 ### Videos
 - [Attention Models and Memory Networks](https://www.youtube.com/watch?v=JqkfT1s60cI&list=PLep-kTP3NkcOjOS1a30UNW-tH2FSoGYfg&index=2&t=0s)
